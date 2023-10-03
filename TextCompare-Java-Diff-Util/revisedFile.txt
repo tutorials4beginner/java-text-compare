@@ -1,0 +1,13 @@
+C does not support call by reference
+
+C does not support call by reference. Because when you pass pointer then you are passing the 
+address of the variable which is actually a value.
+
+If a language is pass by reference, then there are no different ways of passing the argument – 
+you pass an argument and a reference is sent to the function – there are no syntactical 
+differences between passing by value and passing by reference. 
+
+However, in C, when the intent is to pass by reference, then we change the syntax a bit – xxxxxxxxxxxxxxxxx
+
+So, pointers is a tool to simulate/emulate call by reference, but the language as such 
+does not _naturally_ support call by reference. So, C is strictly call by value and not by reference.
